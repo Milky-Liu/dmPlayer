@@ -5,3 +5,16 @@
 ### 3.后台地址  admin/，密码在admin/index.php文件修改，原来的登录页修好了，但代码太屎，直接删了引用了别人的开源项目
 ### 4.使用方法，最直接的就是   '安装路径/?url='，其它的可自行翻看源码，小白用户可忽略..
 ### 5.弹幕大小功能没做
+
+# 参数说明
+```
+"av":'<?php echo($_GET['av']);?>',//B站av号，用于调用弹幕
+"url":"<?php echo($_GET['url']);?>",//视频链接
+"id":"<?php echo($_GET['url']);?>",//视频id
+"sid":"<?php echo($_GET['sid']);?>",//集数id
+"pic":"<?php echo($_GET['pic']);?>",//视频封面
+"title":"<?php echo($_GET['name']);?>",//视频标题
+"next":"<?php echo($_GET['next']);?>",//下一集链接
+"user": '<?php echo($_GET['user']);?>',//用户名
+"group": "<?php echo($_GET['group']);?>",//用户组
+```
